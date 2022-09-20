@@ -5,12 +5,10 @@
 }
 
 body {
-    /* sets the background color for body of webpage */
     background-color: #d9dcd6;
 }
 
 .header {
-    /* adds padding and font styles to header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -18,13 +16,11 @@ body {
 }
 
 .header h1 {
-    /* positions header and adds font size*/
     display: inline-block;
     font-size: 48px;
 }
 
 .header h1 .seo {
-    /* adds color to header */
     color: #d9dcd6;
 }
 
@@ -44,12 +40,12 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-/* styles the appearances of links */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/*defines font for all paragraphs */
+
 p {
     font-size: 16px;
 }
@@ -89,7 +85,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* adds same styling to benefits catagories */
+/* consoladated classes with same styling */
 .benefit-lead ,.benefit-brand ,.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,7 +102,7 @@ p {
     max-width: 150px;
 }
 
-/*add same styling to content */
+/*consoladated classes with same styling */
 .search-engine-optimization ,.online-reputation-management ,.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
